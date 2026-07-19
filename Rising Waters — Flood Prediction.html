@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rising Waters — Flood Prediction</title>
+<link rel="stylesheet" href="./Rising Waters — Flood Prediction_files/style.css">
+</head>
+<body>
+<!-- faint topographic contour backdrop -->
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <pattern id="contours" width="220" height="220" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#3FA7B3" stroke-opacity="0.05" stroke-width="1">
+        <circle cx="60" cy="50" r="30"></circle>
+        <circle cx="60" cy="50" r="55"></circle>
+        <circle cx="60" cy="50" r="80"></circle>
+        <circle cx="170" cy="160" r="22"></circle>
+        <circle cx="170" cy="160" r="46"></circle>
+      </g>
+    </pattern>
+  </defs>
+</svg>
+<div style="position:fixed;inset:0;z-index:-1;background:#0A1B22 url(&#39;data:image/svg+xml;utf8,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22220%22 height=%22220%22&gt;&lt;g fill=%22none%22 stroke=%22%233FA7B3%22 stroke-opacity=%220.05%22&gt;&lt;circle cx=%2260%22 cy=%2250%22 r=%2230%22/&gt;&lt;circle cx=%2260%22 cy=%2250%22 r=%2255%22/&gt;&lt;circle cx=%2260%22 cy=%2250%22 r=%2280%22/&gt;&lt;circle cx=%22170%22 cy=%22160%22 r=%2222%22/&gt;&lt;circle cx=%22170%22 cy=%22160%22 r=%2246%22/&gt;&lt;/g&gt;&lt;/svg&gt;&#39;);"></div>
+
+<header class="gauge-rail">
+  <a class="brand" href="http://127.0.0.1:5000/">
+    <span class="mark"></span>
+    <span class="brand-text">Rising Waters<small>FLOOD RISK GAUGE</small></span>
+  </a>
+  <nav>
+    <a href="http://127.0.0.1:5000/">Overview</a>
+    <a href="http://127.0.0.1:5000/predict">Run Prediction</a>
+  </nav>
+</header>
+
+<div class="wrap">
+  
+
+<section class="hero">
+  <div class="eyebrow">disaster preparedness · machine learning</div>
+  <h1>Read flood risk before the water rises.</h1>
+  <p class="lede">
+    Rising Waters analyses rainfall, cloud visibility, river level, and drainage
+    conditions to classify flood risk in seconds — built for meteorologists,
+    disaster relief coordinators, and analysts who need an early call, not a
+    forecast that arrives after the fact.
+  </p>
+
+  <div class="stat-readout">
+    <div class="stat">
+      <div class="num mono">75.33%</div>
+      <div class="label">Model accuracy — K-Nearest Neighbors</div>
+    </div>
+    <div class="stat">
+      <div class="num mono">8</div>
+      <div class="label">Weather &amp; terrain inputs</div>
+    </div>
+    <div class="stat">
+      <div class="num mono">&lt;1s</div>
+      <div class="label">Time to classification</div>
+    </div>
+  </div>
+
+  <div class="form-actions" style="margin-top:32px;">
+    <a class="btn" href="http://127.0.0.1:5000/predict">Run a Prediction →</a>
+  </div>
+</section>
+
+<div class="section-label">Field reports — how this gets used</div>
+<div class="reports">
+  <div class="report-card">
+    <h3>Early flood warning &amp; evacuation planning</h3>
+    <p>A meteorologist enters current rainfall and cloud-visibility readings for a
+      flood-prone district. The model flags a high probability of flooding,
+      giving authorities hours of lead time to issue evacuation advisories.</p>
+  </div>
+  <div class="report-card">
+    <h3>Disaster response &amp; resource allocation</h3>
+    <p>A relief coordinator monitors several regions at once during monsoon
+      season, entering regional weather data to get instant flood-risk
+      classifications and prioritise where crews deploy first.</p>
+  </div>
+  <div class="report-card safe-border">
+    <h3>Model validation &amp; performance assessment</h3>
+    <p>A government analyst tests the model against historical flood events to
+      confirm its reliability before it's trusted for operational use.</p>
+  </div>
+</div>
+
+
+</div>
+
+<footer>
+  Rising Waters — Machine Learning Approach to Flood Prediction · trained on meteorological features, not a substitute for official emergency alerts
+</footer>
+
+</body></html>
